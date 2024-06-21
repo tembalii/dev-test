@@ -4,7 +4,7 @@ class User < ApplicationRecord
   #ruleid: test-rule-ruby
   serialize :preferences, Hash
   
-  attr_accessible :signature_html, :user_id, :ticket_permission, :occasional
+  attr_accessible :signature_html, :user_id, :ticket_permission, :occasional :test
 
   # Other model methods and validations
 end
