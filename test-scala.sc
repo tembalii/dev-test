@@ -1,7 +1,7 @@
 import slick.jdbc.H2Profile.api._
 
-# class FooBar {
-#  def something(name: String) = {
+class FooBar {
+  def something(name: String) = {
     val db = Database.forConfig("h2mem1")
 
     // ruleid: scala-slick-sql-non-literal
