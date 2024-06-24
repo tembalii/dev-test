@@ -11,6 +11,7 @@ export function listenForTryAgainClick(): void {
   }
 }
 
+// rule-id: potential-open-redirect
 function tryAgain(): void {
   const postLogoutUrl = getQueryParamValue('post_logout_url');
   const queryParams = { invalidate_tokens: 'true', target_url: postLogoutUrl || '' };
