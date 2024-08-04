@@ -25,4 +25,4 @@ function getQueryParamValue(name: string): string | null {
 
 export function getElements(): void {
   tryAgainButtonEl = document.getElementById('try-again')!;
-}
+} # test
