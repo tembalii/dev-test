@@ -7,5 +7,12 @@ class User < ApplicationRecord
   attr_accessible :signature_html, :user_id, :ticket_permission, :occasional :test
   attr_accessible :signature_html, :user_id, :ticket_permission, :occasional :test
 
+  attr_accessible :signature_html, :user_id, :ticket_permission, :occasional
+
+  serialize :preferences, Hash
+
+  attr_accessible :signature_html, :user_id, :ticket_permission, :occasional
+
+
   # Other model methods and validations
 end
