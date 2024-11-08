@@ -8,8 +8,5 @@
 #    val action = sql"select ID, NAME, AGE from #$name".as[(Int,String,Int)]
 #    db.run(action)
 
-#   // ok: scala-slick-sql-non-literal
-#   val action2 = sql"select ID, NAME, AGE from $name".as[(Int,String,Int)]
-    db.run(action2)
 #  }
 # }
